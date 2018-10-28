@@ -1,0 +1,439 @@
+body {
+      margin: 0;
+}
+
+h1 {
+  Color: black;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-top: 10%;
+  margin-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_sub{
+  margin-left: 0%;
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  height:auto;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 2%;
+}
+
+
+.navigationbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5%;
+  margin-right: 8%;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arbetsprover {
+  height: auto;
+  background-color: white;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 100%;
+  display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+    }
+
+.arbetsprover img {
+  width: 28%;
+  height:auto;
+  margin-left: 0%;
+  margin-right: 5px;
+}
+
+.arbetsprover_2 {
+  height: auto;
+  background-color: white;
+  padding-top: 0%;
+  padding-bottom:2%;
+  width: 100%;
+  display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+    }
+
+.arbetsprover_2 img {
+  width: 28%;
+  height:auto;
+  margin-left: 0%;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  margin-left: 8%;
+  margin-right: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+
+  }
+
+li {
+    float: left;
+
+  }
+
+a {
+    display: block;
+    padding: 19px;
+    background-color: #ffffff;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+
+  }
+
+a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: #fb366e;
+    font-weight:bold;
+}
+
+a:active {
+    color: #fb366e;
+    font-weight:bold;
+}
+
+.youtube {
+  background-color: #efefef;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+
+.contact {
+    background-color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .footer {
+      background-color: #9b9b9b;
+      height: 5%;
+
+    }
+
+  @media (max-width: 600px) {
+    h1 {
+      Color: black;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header{
+      height:auto;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+    }
+
+
+    .navigationbar{
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 5%;
+      margin-right: 8%;
+      margin-top: 5%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .arbetsprover {
+      height: auto;
+      background-color: white;
+      padding-top: 0%;
+      padding-bottom: 0%;
+      width: 100%;
+      display: flex;
+      	flex-direction: column;
+      	justify-content: center;
+      	align-items: center;
+      	align-content: center;
+        }
+
+    .arbetsprover img {
+      width: 90%;
+      height:auto;
+      margin-left: 0%;
+      margin-right: 5px;
+      padding-top: 5px;
+    }
+
+    .arbetsprover_2 {
+      height: auto;
+      background-color: white;
+      padding-top: 0%;
+      padding-bottom: 2%;
+      width: 100%;
+      display: flex;
+      	flex-direction: column;
+      	justify-content: center;
+      	align-items: center;
+      	align-content: center;
+        }
+
+    .arbetsprover_2 img {
+      width: 90%;
+      height:auto;
+      margin-left: 0%;
+      margin-right: 5px;
+      padding-top: 5px;
+    }
+
+
+    p {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2{
+      margin-left: 5%;
+      margin-right: 12%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h3 {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 15%;
+      margin-right: 15%;
+      font-family: Arial, Helvetica, sans-serif;
+          padding: 10px;
+
+      }
+
+    li {
+        float: left;
+
+      }
+
+    a {
+        display: block;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+
+    a:link {
+        color: black;
+        text-decoration: none;
+
+      }
+
+    a:visited {
+        color: black;
+      }
+
+      a:hover {
+        color: #fb366e;
+        font-weight:bold;
+    }
+
+    a:active {
+        color: #fb366e;
+        font-weight:bold;
+    }
+
+    .youtube {
+      background-color: #efefef;
+      padding-top: 2%;
+      padding-bottom: 5%;
+    }
+
+    .contact {
+      background-color: #ffffff;
+      height: 5%;
+      }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 800px)  {
+  h1 {
+    Color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header{
+    height:auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+
+  .navigationbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .arbetsprover {
+    height: auto;
+    background-color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      }
+
+  .arbetsprover img {
+    width: 90%;
+    height:auto;
+    margin-left: 0%;
+    margin-right: 5px;
+    padding-top: 5px;
+  }
+
+  .arbetsprover_2 {
+    height: auto;
+    background-color: white;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      }
+
+  .arbetsprover_2 img {
+    width: 90%;
+    height:auto;
+    margin-left: 0%;
+    margin-right: 5px;
+    padding-top: 5px;
+  }
+
+
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2{
+    margin-left: 5%;
+    margin-right: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+
+    }
+
+  li {
+      float: left;
+
+    }
+
+  a {
+      display: block;
+      padding: 10px;
+      background-color: #ffffff;
+  }
+
+  a:link {
+      color: black;
+      text-decoration: none;
+
+    }
+
+  a:visited {
+      color: black;
+    }
+
+    a:hover {
+      color: #fb366e;
+      font-weight:bold;
+  }
+
+  a:active {
+      color: #fb366e;
+      font-weight:bold;
+  }
+
+  .youtube {
+    background-color: #efefef;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+  .contact {
+    background-color: #ffffff;
+    height: 5%;
+    }
+
+}
